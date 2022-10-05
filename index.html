@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="top-wrapper">
+        <div class="top-left">
+          <p class="balance-text">My Balance</p>
+          <h1 class="balance-amount">
+            $ <span class="total-counter" data-max="921.48">0</span>
+          </h1>
+        </div>
+        <div class="top-right">
+          <img src="./images/logo.svg" />
+        </div>
+      </div>
+
+      <div class="bottom-wrapper">
+        <h1 class="title">Spending - Last 7 days</h1>
+        <div class="graph-bar"></div>
+        <div class="bottom-content">
+          <div class="btm-left">
+            <p class="total-text">Total this month</p>
+            <h1 class="total-amount">
+              $<span class="total-counter" data-max="694.20">0</span>
+            </h1>
+          </div>
+          <div class="btm-right">
+            <p class="change-perc">
+              +<span class="total-counter" data-max="2.4">0</span>%
+            </p>
+            <p class="total-text">from last month</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
